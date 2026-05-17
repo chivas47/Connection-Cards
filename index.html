@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#667eea">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description" content="Deep Connection Cards — a card game to help you get to know each other on a deeper level.">
+    <title>Deep Connection Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>🌟 Deep Connection Cards</h1>
+            <p>Get to know each other on a deeper level</p>
+        </header>
+
+        <main class="game-area" role="main">
+            <div class="instructions" role="note">
+                <strong>How to play:</strong> Pick a level, draw a card, and both answer honestly. Take turns picking cards. The deeper you go, the more you'll connect! 💜
+            </div>
+
+            <nav class="level-selector" aria-label="Difficulty level">
+                <button class="level-btn level-1-btn active" onclick="selectLevel(1)" aria-pressed="true" aria-label="Level 1: Warm-Up">
+                    ☀️ Warm-Up
+                </button>
+                <button class="level-btn level-2-btn" onclick="selectLevel(2)" aria-pressed="false" aria-label="Level 2: Getting Real">
+                    💭 Getting Real
+                </button>
+                <button class="level-btn level-3-btn" onclick="selectLevel(3)" aria-pressed="false" aria-label="Level 3: Deep Dive">
+                    💫 Deep Dive
+                </button>
+                <button class="level-btn level-4-btn" onclick="selectLevel(4)" aria-pressed="false" aria-label="Level 4: Soul Level">
+                    🌊 Soul Level
+                </button>
+            </nav>
+
+            <div class="card-container" role="region" aria-label="Current card">
+                <div class="card level-1" id="questionCard">
+                    <div class="card-level" id="cardLevel">Level 1: Warm-Up</div>
+                    <div class="card-question" id="cardQuestion" aria-live="polite" aria-atomic="true">
+                        Tap "Draw Card" to begin!
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-primary" onclick="drawCard()" aria-label="Draw a new card">
+                    🎴 Draw Card
+                </button>
+                <button class="btn btn-primary btn-sound" onclick="toggleSound()" id="soundBtn" aria-label="Toggle sound" aria-pressed="true">
+                    🔊
+                </button>
+            </div>
+
+            <div class="stats" role="status" aria-label="Game statistics">
+                <div class="stat-item">
+                    <div class="stat-number" id="cardsDrawn">0</div>
+                    <div class="stat-label">Cards Drawn</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="currentLevel">1</div>
+                    <div class="stat-label">Current Level</div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
