@@ -21,12 +21,23 @@
                 "What's the most spontaneous thing you've ever done?",
                 "What's the last thing you learned that genuinely excited you?",
                 "If you could instantly become fluent in any language, which would you choose and why?",
-                "What's a show, podcast, or book you've been hooked on recently and why?"
+                "What's a show, podcast, or book you've been hooked on recently and why?",
+                "What's a weird or unexpected thing you find beautiful?",
+                "If you could wake up tomorrow with one new talent, what would it be?",
+                "What's a tradition from your childhood you'd love to bring back?",
+                "What's the most interesting conversation you've ever had with a stranger?",
+                "What's something you always have with you and why?",
+                "What's a place on your bucket list and what draws you to it?",
+                "What's your go-to karaoke song or what would it be if you had to pick one?",
+                "If you could relive one day from your life exactly as it was, which day would you choose?",
+                "What's something you believed as a kid that you now find hilarious?",
+                "What fictional world would you most want to visit for a day?",
+                "What's a piece of advice you've received that actually stuck with you?"
             ],
             2: [
                 "What's a belief you held strongly that you've changed your mind about?",
                 "What does friendship mean to you? What makes someone a true friend?",
-                "What's your biggest pet peeve in relationships — romantic or platonic?",
+                "What's your biggest pet peeve in relationships romantic or platonic?",
                 "Tell me about a time when you felt really proud of yourself.",
                 "What's something you're working on improving about yourself?",
                 "What do you value most in the people closest to you?",
@@ -45,7 +56,17 @@
                 "What habit has made the biggest positive difference in your life?",
                 "What's a compliment you've received that you still think about?",
                 "What does your ideal support system look like when you're going through something hard?",
-                "What's something you're deeply curious about that you've never had the chance to explore?"
+                "What's something you're deeply curious about that you've never had the chance to explore?",
+                "How do you recharge when life genuinely drains you?",
+                "What does a really good day look like for you?",
+                "What's something you've given up on and made peace with?",
+                "What's the most important thing you've learned about yourself in the past year?",
+                "What does your inner critic say to you most often?",
+                "Who in your life has surprised you the most, and how?",
+                "What's something you used to be passionate about that faded? Do you miss it?",
+                "How do you decide who to let close to you?",
+                "What does accountability actually look like for you in practice?",
+                "What's a version of success you chased that turned out not to matter?"
             ],
             3: [
                 "What's your biggest fear about the future?",
@@ -69,7 +90,17 @@
                 "How has your relationship with yourself changed over the years?",
                 "What does home mean to you on an emotional level?",
                 "What's a conversation you keep having with yourself that you haven't resolved?",
-                "What do you wish someone had told you before a major life transition?"
+                "What do you wish someone had told you before a major life transition?",
+                "What part of growing up was hardest that you rarely talk about?",
+                "What's a belief you inherited from your family that you've had to seriously examine?",
+                "Have you ever felt truly alone in a room full of people? What was that like?",
+                "What does healing mean to you, and are you in the middle of it right now?",
+                "What's something you envy in others and what does that tell you about yourself?",
+                "What's your honest relationship with uncertainty? How do you cope with not knowing?",
+                "What's the most important relationship you've lost, and what did it teach you?",
+                "What's a sacrifice you've made that you've never fully acknowledged to yourself?",
+                "When have you been most brave in your entire life?",
+                "How do you know when you're running from something rather than moving toward something?"
             ],
             4: [
                 "What do you think is the biggest lie you tell yourself?",
@@ -93,7 +124,17 @@
                 "What have you been carrying alone that you've never fully put down?",
                 "If your life were a story, what chapter are you in right now?",
                 "What does it feel like when you betray yourself? Has that happened recently?",
-                "What would radical honesty with the people you love change in your life?"
+                "What would radical honesty with the people you love change in your life?",
+                "What would you do if you knew no one would ever find out?",
+                "What does your relationship with loneliness actually look like?",
+                "Is there someone you've never fully forgiven? What would it take?",
+                "What's the most important thing you'd want those who come after you to know?",
+                "If you could have one honest conversation with someone you've lost, what would you say?",
+                "What's the one thing you most want to be understood about, but rarely feel understood about?",
+                "What do you think stands between you and the life you actually want?",
+                "What's the most loving thing you've ever done and did you let yourself receive love back?",
+                "When have you loved someone more than they deserved, and what did that teach you?",
+                "What's one thing you know to be true about yourself that would surprise most people?"
             ]
         };
 
